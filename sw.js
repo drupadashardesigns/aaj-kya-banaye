@@ -1,6 +1,6 @@
 // Offline support. The page itself is fetched fresh when online so updates arrive,
 // and served from the cache when there is no connection. Fonts are cached on first use.
-const CACHE = "akb-v4";
+const CACHE = "akb-v5";
 const SHELL = ["./", "./index.html", "./manifest.webmanifest", "./icon-192.png", "./icon-512.png"];
 
 self.addEventListener("install", e => {
